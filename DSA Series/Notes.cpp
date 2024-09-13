@@ -20,13 +20,24 @@
         
 // How to converst Char to Int
 
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     char c = 'a';
+
+//     int value = c;
+//     cout <<value;
+//     return 0;
+// }
+
 #include <iostream>
 using namespace std;
 
 int main() {
-    char c = 'a';
-
-    int value = c;
-    cout <<value;
+    int age;
+    cout <<"Enter the age:";
+    cin >> age;
+    cout << "Your age is:" <<age;
     return 0;
 }
