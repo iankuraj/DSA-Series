@@ -31,15 +31,41 @@
 //     return 0;
 // }
 
-//Input in C++
+// Input in C++
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int age;
+//     cout <<"Enter the age:";
+//     cin >> age;
+//     cout << "Your age is:" <<age;
+//     return 0;
+// }
+
+// Sum of 2 numbers
+
+#include <iostream>  // Include the iostream library for input and output
+using namespace std;  // Use the standard namespace to avoid using "std::" prefix
 
 int main() {
-    int age;
-    cout <<"Enter the age:";
-    cin >> age;
-    cout << "Your age is:" <<age;
-    return 0;
+    int a, b;  // Declare two integer variables 'a' and 'b'
+    
+    // Prompt the user to enter the first number
+    cout << "Enter the First Number:";  
+    cin >> a;  // Read the first number from user input and store in 'a'
+
+    // Prompt the user to enter the second number
+    cout << "Enter the Second Number:";  
+    cin >> b;  // Read the second number from user input and store in 'b'
+
+    // Calculate the sum of the two numbers
+    int Sum = a + b;  
+    
+    // Display the result
+    cout << "Sum of two Numbers is: " << Sum;  
+
+
+    return 0;  // Return 0 to indicate successful program execution
 }
