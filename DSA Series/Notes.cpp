@@ -49,15 +49,15 @@
 using namespace std;  // Use the standard namespace to avoid using "std::" prefix
 
 int main() {
-    int a, b;  // Declare two integer variables 'a' and 'b'
+    int a, b;  // Declare two integer variables a and b
     
     // Prompt the user to enter the first number
     cout << "Enter the First Number:";  
-    cin >> a;  // Read the first number from user input and store in 'a'
+    cin >> a;  // Read the first number from user input and store in a
 
     // Prompt the user to enter the second number
     cout << "Enter the Second Number:";  
-    cin >> b;  // Read the second number from user input and store in 'b'
+    cin >> b;  // Read the second number from user input and store in b
 
     // Calculate the sum of the two numbers
     int Sum = a + b;  
@@ -66,4 +66,5 @@ int main() {
     cout << "Sum of two numbers is: " << Sum;  
     
     return 0;  // Return 0 to indicate successful program execution
+    
 }
