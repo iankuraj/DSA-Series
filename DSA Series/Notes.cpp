@@ -31,6 +31,8 @@
 //     return 0;
 // }
 
+//Input in C++
+
 #include <iostream>
 using namespace std;
 
