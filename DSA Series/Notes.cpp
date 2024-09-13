@@ -1,7 +1,7 @@
 // Variable
 // Containers to store Data
 
-// Rule:
+// Rules:
     // 1.For any name must be start as - (Underscore)
     // 2.For any name must be end as - (Underscore).
     // 3.Any name must be contain only english characteers a-z A-Z and 
