@@ -45,26 +45,21 @@
 // }
 
 // Sum of 2 numbers
-#include <iostream>  // Include the iostream library for input and output
-using namespace std;  // Use the standard namespace to avoid using "std::" prefix
 
+#include <iostream>
+using namespace std;
 int main() {
-    int a, b;  // Declare two integer variables a and b
+    int a, b;
     
-    // Prompt the user to enter the first number
+    
     cout << "Enter the First Number:";  
-    cin >> a;  // Read the first number from user input and store in a
+    cin >> a;  
 
-    // Prompt the user to enter the second number
     cout << "Enter the Second Number:";  
-    cin >> b;  // Read the second number from user input and store in b
-
-    // Calculate the sum of the two numbers
+    cin >> b;
+    
     int Sum = a + b;  
-    
-    // Display the result
-    cout << "Sum of two numbers is: " << Sum;  
-    
-    return 0;  // Return 0 to indicate successful program execution
-    
+
+    cout << "Sum of two Numbers is: " << Sum;  
+    return 0;
 }
