@@ -18,3 +18,15 @@
         // dict - 8bytes
         // set - 8bytes
         
+// How to converst Char to Int
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    char c = 'a';
+
+    int value = c;
+    cout <<value;
+    return 0;
+}
