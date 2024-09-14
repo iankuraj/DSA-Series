@@ -64,6 +64,14 @@
 //     return 0;
 // }
 
+
+//Simplifying code with "else if"
+    //--> As Your code becomes more complex, you'll often encounter scenarious where you need to check multiple conditions.
+    // Insted of writing multiple independent if statements, you can streamline your code using else if statements.
+    //--> else if is a shorthand for "else if" and is used to check multiple conditions
+    //--> The else if statement is used to check if the condition is true, if it is
+    //--> then the code inside the block is executed, otherwise it moves to the next condition.
+    
 //Let's say we want to grade students based on their marks within specific ranges:
 #include <iostream>
 using namespace std;
@@ -83,5 +91,6 @@ int main(){
     } else{
         cout<<"Grade C"<<endl;
     }
+    
     return 0;
 }
