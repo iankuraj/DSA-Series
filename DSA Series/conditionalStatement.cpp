@@ -1,3 +1,9 @@
+// Conditional Statement
+--> Conditional Statement are indispensable tool for controlling the flow of your Program.
+
+--> If the conditiona in the "If Statement" is true, a block of code inside the if block will be executed.
+--> If the conditiona in the "If Statement" is false, a block of code inside the else block will be executed.
+
 // #include <iostream>  // Include the iostream library for input and output 
 // using namespace std; // Use the standard namespace to avoid using "std::" prefix
 
