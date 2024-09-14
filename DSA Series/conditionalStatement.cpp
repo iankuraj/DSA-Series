@@ -19,24 +19,40 @@
 
 
 
-#include <iostream> 
-using namespace std;
+// #include <iostream> 
+// using namespace std;
 
-int main() {
-    int a; 
+// int main() {
+//     int a; 
 
-    cout <<"Enter Any Number:";
-    cin >> a; 
+//     cout <<"Enter Any Number:";
+//     cin >> a; 
 
     
-    if (a%2 == 0) 
-    {
-        cout <<"Even Number\n";
+//     if (a%2 == 0) 
+//     {
+//         cout <<"Even Number\n";
 
-    } else {  
-        cout <<"Odd Number\n"; 
+//     } else {  
+//         cout <<"Odd Number\n"; 
+//     }
+
+//     return 0;
+
+// }
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int a;
+    cout<<"Enter Your Age:";
+    cin>>a;
+
+    if(a%2 == 0){
+        cout<<"You are Adult"<<endl;
+    } else {
+        cout<<"You are not Adult"<<endl;
     }
-
     return 0;
-
 }
