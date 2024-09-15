@@ -32,7 +32,7 @@ int main() {
     return 0;
 }
 
-Input in C++
+//Input in C++
 
 #include <iostream>
 using namespace std;
@@ -45,6 +45,7 @@ int main() {
     return 0;
 }
 
+//Example of Arithmetic Operator
 // Sum of 2 numbers
 
 #include <iostream>
@@ -64,3 +65,13 @@ int main() {
     cout << "Sum of two Numbers is: " << Sum;  
     return 0;
 }
+
+
+//Operators --> There are diff types of Operators
+                //(i)Arithmetic -->     +,-,*,/
+                //(ii)Logical  -->      //AND(&&) It will returns True->True/False->False
+                                        //OR(||)It will always returns Same Values,like both condition are true it will returns True either both condition are false it will returns False
+                                        //NOT(!) It will returns True->False/False->True
+                //(iii)Relational -->   <, <=, >, >=, ==, != It will always return boolean values.
+
+
