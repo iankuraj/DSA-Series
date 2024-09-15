@@ -1,5 +1,4 @@
-// Variable
-// Containers to store Data
+// Variable --> Variable are a Containers to store any Data.
 
 // Rules:
     // 1.For any name must be start as - (Underscore)
@@ -17,32 +16,34 @@
         // list - 8bytes
         // dict - 8bytes
         // set - 8bytes
+
+//Type Casting --> Converting data from one type to another
         
 // How to converst Char to Int
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// int main() {
-//     char c = 'a';
+int main() {
+    char c = 'a';
 
-//     int value = c;
-//     cout <<value;
-//     return 0;
-// }
+    int value = c;
+    cout <<value;
+    return 0;
+}
 
-// Input in C++
+Input in C++
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// int main() {
-//     int age;
-//     cout <<"Enter the age:";
-//     cin >> age;
-//     cout << "Your age is:" <<age;
-//     return 0;
-// }
+int main() {
+    int age;
+    cout <<"Enter the age:";
+    cin >> age;
+    cout << "Your age is:" <<age;
+    return 0;
+}
 
 // Sum of 2 numbers
 
